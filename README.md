@@ -1,7 +1,7 @@
 # BlocoDeNotas-ANDROIDSTUDIO
 
-➜ (+) = Adicionado
+➜ ( + ) = Adicionado
 
-➜ (-) = Removido
+➜ ( - ) = Removido
 
-➜ (/) = Modificado
+➜ ( / ) = Modificado
