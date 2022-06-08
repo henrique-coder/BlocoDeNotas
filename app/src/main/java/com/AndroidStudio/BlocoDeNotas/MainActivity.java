@@ -32,14 +32,16 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Validar se foi digitado algo
+                String SalvoBlocoNotas = getString(R.string.SalvoBlocoNotas);
+                String AvisoBlocoNotas = getString(R.string.AvisoBlocoNotas);
+                //Validar se algo foi digitado
                 String textoRecuperado = editAnotacao.getText().toString();
                 if( textoRecuperado.equals("") ){
-                    Snackbar.make(view, "Não deixe a anotação em branco!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(view,AvisoBlocoNotas, Snackbar.LENGTH_LONG).show();
                 }else {
 
                     preferencias.salvarAnotacao( textoRecuperado );
-                    Snackbar.make(view, "Anotação salva com sucesso!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(view,SalvoBlocoNotas, Snackbar.LENGTH_LONG).show();
                 }
 
             }
