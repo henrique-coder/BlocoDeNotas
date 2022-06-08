@@ -1,9 +1,7 @@
 # BlocoDeNotas-ANDROIDSTUDIO
 
-➜ Legenda dos Commits:
+➜ (+) = Adicionado
 
-(+) = Adicionado
+➜ (-) = Removido
 
-(-) = Removido
-
-(/) = Modificado
+➜ (/) = Modificado
