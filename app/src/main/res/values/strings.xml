@@ -11,5 +11,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
     <string name="DicaBlocoNotas">Digite sua anotação aqui</string>
-
+    <string name="AvisoBlocoNotas">Não deixe a anotação em branco!</string>
+    <string name="SalvoBlocoNotas">Anotação salva com sucesso!</string>
 </resources>

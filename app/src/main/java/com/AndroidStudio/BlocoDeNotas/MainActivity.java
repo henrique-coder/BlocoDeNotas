@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 //Validar se foi digitado algo
                 String textoRecuperado = editAnotacao.getText().toString();
                 if( textoRecuperado.equals("") ){
-                    Snackbar.make(view, "Preencha a sua anotação!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(view, "Não deixe a anotação em branco!", Snackbar.LENGTH_LONG).show();
                 }else {
 
                     preferencias.salvarAnotacao( textoRecuperado );
