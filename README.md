@@ -2,6 +2,6 @@
 
     ➜ ( / ) = Modificado
   
-      ➜ ( + ) = Adicionado
+    ➜ ( + ) = Adicionado
     
-        ➜ ( - ) = Removido
+    ➜ ( - ) = Removido
