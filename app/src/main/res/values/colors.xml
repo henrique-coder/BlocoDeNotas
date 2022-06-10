@@ -327,11 +327,8 @@
     <color name="Pearl">#FDEEF4</color>
     <color name="SeaShell">#FFF5EE</color>
     <color name="MilkWhite">#FEFCFF</color>
-    <color name="cinza">#1C1C1C</color>
-    <color name="rosaClaro">#FF7878</color>
-    <color name="rosaEscuro">#EB5757</color>
-    <color name="verdeEscuro">#1B9E40</color>
-    <color name="verdeClaro">#57EB81</color>
-    <color name="preto">#FF000000</color>
-    <color name="branco">#FFFFFFFF</color>
+    <color name="DarkGray">#1C1C1C</color>
+    <color name="Black">#FF000000</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="Clear">#00FFFFFF</color>
 </resources>
