@@ -4,6 +4,7 @@
     <string name="tab_text_2">Editar</string>
     <string name="tab_text_3">Config</string>
     <string name="tab_text_4">Sobre</string>
+    <string name="symbols_1">Símbolos</string>
 
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>

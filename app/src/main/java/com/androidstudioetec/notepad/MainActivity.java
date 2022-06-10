@@ -1,5 +1,7 @@
 package com.androidstudioetec.notepad;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import com.androidstudioetec.notepad.ui.main.SharedPreferences;
@@ -46,4 +48,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void symbols(View view){
+ String url = "https://coolsymbol.com/";
+ Intent i = new Intent(Intent.ACTION_VIEW);
+ i.setData(Uri.parse(url));
+ startActivity(i);}
 }
